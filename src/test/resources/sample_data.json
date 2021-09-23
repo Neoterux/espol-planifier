@@ -1,0 +1,52 @@
+{
+  "subject-name": "Name",
+  "code": "code",
+  "schedules": [
+    {
+      "id": "parallel_number",
+      "class-no": "A107",
+      "teacher-name": "Sample name 1",
+      "cenacad": 9.0,
+      "depends-on": "another subject",
+      "daily-schedule": [
+        {
+          "day": "Lunes",
+          "init-hour": "9:00",
+          "end-hour": "10:00"
+        },
+        {
+          "day": "Martes",
+          "init-hour": "9:00",
+          "end-hour": "10:00"
+        }
+      ],
+      "exam-schedule": {
+        "day": "Lunes",
+        "init-hour": "9:00",
+        "end-hour": "10:00"
+      }
+    },
+    {
+      "id": "1",
+      "teacher-name": "DOMINGUEZ BONINI FEDERICO XAVIER",
+      "class-no": "A101",
+      "daily-schedule": [
+        {
+          "day": "Lunes",
+          "init-hour": "09:00",
+          "end-hour": "10:00"
+        },
+        {
+          "day": "Miércoles",
+          "init-hour": "09:00",
+          "end-hour": "11:00"
+        }
+      ],
+      "exam-schedule": {
+        "day": "Viernes",
+        "init-hour": "11:00",
+        "end-hour": "13:00"
+      }
+    }
+  ]
+}

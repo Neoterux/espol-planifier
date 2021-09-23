@@ -1,0 +1,30 @@
+{
+  "subject-name": "Test-Subject",
+  "code": "Test-code",
+  "schedules": [
+    {
+      "id": "parallel_number",
+      "class-no": "A107",
+      "teacher-name": "Sample name 1",
+      "cenacad": 9.0,
+      "depends-on": "another subject",
+      "daily-schedule": [
+        {
+          "day": "Monday",
+          "init-hour": "9:00",
+          "end-hour": "10:00"
+        },
+        {
+          "day": "Wednesday",
+          "init-hour": "9:00",
+          "end-hour": "10:00"
+        }
+      ],
+      "exam-schedule": {
+        "day": "Monday",
+        "init-hour": "9:00",
+        "end-hour": "10:00"
+      }
+    }
+  ]
+}

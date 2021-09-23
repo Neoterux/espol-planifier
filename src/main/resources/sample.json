@@ -1,0 +1,35 @@
+{
+  "subjects": ["subject1", "subject2", "subject3"],
+
+  "subject1": [{ // Each subject can have more than one schedule
+    // code is optional
+    // "code": "The code of the subject"
+    "teacher-name": "Sample name 1",
+    // cenacad tag is type float and optional, only to order the priority of a subject
+    //"cenacad": 9.0,
+    // depends-on is optional, and its to consider a topic priority
+    // order this relative to the specified subject, the name of this topic
+    // need to be defined in 'subjects'
+    //"depends-on": "another subject",
+    "schedule": [{
+        "day": "Monday",
+        "init-hour": "9:00", // 24 hours format
+        "end-hour": "10:00" //end hour, this would be validated at runtime
+      },
+      {
+        "day": "Wednesday",
+        "init-hour": "9:00",
+        "end-hour": "10:00"
+      }],
+
+    "ex-schedule": {
+      "day": "Monday",
+      "init-hour": "9:00",
+      "end-hour": "10:00"
+    }
+    // class-no is optional only to decore
+    //"class-no": "A107"
+
+  }],
+
+}
