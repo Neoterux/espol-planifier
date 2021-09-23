@@ -1,4 +1,4 @@
-#Espol planifier
+# Espol planifier
 
 Este proyecto busca agilizar (al menos personalmente) la forma de 
 planificar los horarios de nuevos semestres.
