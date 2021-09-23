@@ -36,14 +36,14 @@ El formato JSON a parsear tiene el siguiente formato:<br/>
         ...
     ] 
 }
-```
-<br/>
-También se puede ver un ejemplo [aqui](/src/test/resources/sample_data.json)
-<br/>
+``` 
+
+También puedes visualizar un archivo de ejemplo: [sample_data.json](/src/test/resources/sample_data.json)
+
 nota: Cada archivo JSON corresponde a una sola materia, por lo que si quieres planificar <br/>
 más de una, agrega más archivos JSON al directorio `data`
 
-### Script ayuda
+### Script de ayuda
 Para ayudar a crear los JSON tambien se añade un pequeño script para tampermonkey, se encuentra localizado en: <br/>
 `tampermonkey-script/`
 
@@ -51,8 +51,7 @@ Para ayudar a crear los JSON tambien se añade un pequeño script para tampermon
 - Java >= 16
 
 ### Ejecutable
-Se puede crear una imagen del proyecto que sea ejecutable y nativa <br/>
-para poder crearla solo ejecuta el comando: `./gradlew jpackage`, <br/>
-si estás en un sistema operativo Unix, o `gradlew.bat jpackage`.
+Se puede crear una imagen del proyecto que sea ejecutable y nativa para poder crearla solo ejecuta el comando:<br/>
+`./gradlew jpackage`, si estás en un sistema operativo Unix, o `gradlew.bat jpackage` si estás en windows.
 <br/><p/>
 El ejecutable se encontrará en la carpeta `build/image-output/Espol Planifier/bin`.
